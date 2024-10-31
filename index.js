@@ -13,7 +13,7 @@ function calcular(){
     }else if(media <= 6.9 && media >= 5){
         document.getElementById('resultadoSituacao').innerHTML = 'Recuperação...'
     }else{
-        document.getElementById('resultadoSituacao').innerHTML = 'Reprovado...'
+        document.getElementById('resultadoSituacao').innerHTML = 'Reprovado....'
     }
 
 
