@@ -8,4 +8,13 @@ function calcular(){
 
     document.getElementById('resultado').innerHTML = media.toFixed(2);
 
+    if(media >= 7){
+        document.getElementById('resultadoSituacao').innerHTML = 'Aprovado...'
+    }else if(media <= 6.9 && media >= 5){
+        document.getElementById('resultadoSituacao').innerHTML = 'Recuperação...'
+    }else{
+        document.getElementById('resultadoSituacao').innerHTML = 'Reprovado...'
+    }
+
+
 }

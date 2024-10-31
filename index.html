@@ -11,6 +11,9 @@
     <div id="areaTotal">
         <div id="area">
             <h3>Calcular média aluno</h3>
+            <p>Nota maior que 7 = <b>Aprovado...</b></p>
+            <p>Nota menor que 6.9 e maior que 5 = <b>Recuperação...</b></p>
+            <p>Nota menor que 5 = <b>Reprovado</b>...</p>
 
             <input type="text" placeholder="Digite a primeira nota" name="n1" id="n1">
 
@@ -18,9 +21,10 @@
 
             <input type="text" placeholder="Digite a terceira nota" name="n3" id="n3">
 
-            <button id="botao" onclick="calcular()">Calcular média</button>
+            <button id="botao" onclick="calcular()" onclick="situacao()">Calcular média</button>
 
             <div id="resultado"></div>
+            <div id="resultadoSituacao"></div>
 
         </div>
     </div>
